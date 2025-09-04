@@ -32,8 +32,8 @@ export default function Navbar() {
           />
           <div className="nav-heading">
             <h1 className="heading">
-              Best Tree Service DFW <br />
-              Premier Residential & Commercial Tree Care Experts
+              DFW Best Floor Installations <br />
+              Premier Residential & Commercial Flooring Experts
             </h1>
             <span className="slogan">
               Your Trusted Local Experts in Safe and Dependable Tree Service.
@@ -73,7 +73,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link to="/Fences" onClick={() => setIsOpen(false)}>
-                Fences
+                Contact Us
               </Link>
             </li>
           </ul>
