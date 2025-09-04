@@ -22,11 +22,7 @@ export default function Home() {
   };
 
   return (
-    <>
-      <Navbar />
-
-      <main>
-        {/* Hero & Estimate Form */}
+    <main>
         <section className="hero-section">
           <h1>DFW Best Floor Installations</h1>
           <p>Your Premier Flooring Experts—Quality Craftsmanship & Lifetime Warranty</p>
@@ -117,9 +113,7 @@ export default function Home() {
             <strong>Location:</strong> Serving Dallas–Fort Worth and Surrounding Areas
           </p>
         </section>
+        
       </main>
-
-      <Footer />
-    </>
   );
 }
