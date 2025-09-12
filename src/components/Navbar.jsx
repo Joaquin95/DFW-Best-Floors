@@ -25,18 +25,19 @@ export default function Navbar() {
       <nav className="navbar-main">
         <div className="navbar-inner">
           <img
-            src="/images/tree.png"
-            alt="Best Tree Service Logo"
+            src="/images/DFW-Best-Floors-Logo.png"
+            alt="DFW Best floors installations Logo"
             className="nav-logo"
             onClick={() => navigate("/")}
           />
           <div className="nav-heading">
             <h1 className="heading">
-              DFW Best Floor Installations <br />
+              {/* DFW Best Floor Installations <br /> */}
               Premier Residential & Commercial Flooring Experts
             </h1>
             <span className="slogan">
               Your Trusted Local Experts in Safe and Dependable Tree Service.
+              Licensed & Insured. Free Estimates!
             </span>
           </div>
 

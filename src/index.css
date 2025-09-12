@@ -4,7 +4,7 @@ html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
-  background-color: #624531;
+  background-color: white;
   padding: 0;
   overflow-x: hidden;
 }
@@ -235,7 +235,8 @@ textarea::placeholder {
 }
 
 .navbar-main .nav-logo {
-  height: 180px;
+  height: 500px;
+  width: 600px;
   cursor: pointer;
 }
 
@@ -423,7 +424,7 @@ h2 {
 
 /* Footer */
 .footer {
-  background-color: #402c1e;
+  background-color: #c59778;
   padding: 1.5rem 0;
   text-align: center;
   margin-top: 40px;
