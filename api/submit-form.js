@@ -1,4 +1,4 @@
-import { getSheetsClient, GOOGLE_SHEETS_ID } from "../lib/googleSheets";
+import { getSheetsClient, GOOGLE_SHEETS_ID } from "../lib/googleSheets.js";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
