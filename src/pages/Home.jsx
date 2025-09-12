@@ -88,10 +88,10 @@ export default function Home() {
           <p>
             📧{" "}
             <a
-              href="mailto:info@dfwbestfloorinstallations.com"
+              href="mailto:DfwBestFloorInstallations@gmail.com"
               onClick={() => handleGAEvent("email_click", "Email Click")}
             >
-              info@dfwbestfloorinstallations.com
+             DfwBestFloorInstallations@gmail.com
             </a>
           </p>
 

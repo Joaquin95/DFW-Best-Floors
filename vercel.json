@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/submit-form.js": {
+      "includeFiles": ["lib/googleSheets.js"]
+    }
+  }
+}
