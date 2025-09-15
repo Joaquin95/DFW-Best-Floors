@@ -24,7 +24,7 @@ html {
   max-width: 1200px;
   box-shadow: 0 4px 12px rgba(0, 70, 0, 0.45);
   text-align: center;
-  color: white;
+  color: #caab95;
   padding: 2.5rem;
   margin: 40px auto;
   max-width: 1200px;
@@ -96,10 +96,10 @@ p {
   width: 100%;
   margin: 2rem auto;
   padding: 1rem 2rem;
-  border: 1px solid #8b5e3c;
+  border: 1px solid #caab95;
   border-radius: 8px;
   font-family: sans-serif;
-  background-color: #b58c6f;
+  background-color: #fcbf94f3;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 10.1);
 }
 .form-container h2 {

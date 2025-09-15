@@ -25,7 +25,7 @@ export default function Navbar() {
       <nav className="navbar-main">
         <div className="navbar-inner">
           <img
-            src="/images/DFW-Best-Floors-Logo.png"
+            src="/images/DFW-Floors-Logo.png"
             alt="DFW Best floors installations Logo"
             className="nav-logo"
             onClick={() => navigate("/")}
