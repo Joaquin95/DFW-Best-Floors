@@ -6,6 +6,11 @@ import ThankYou from "./pages/ThankYou.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer";
 import EstimateForm from "./pages/EstimateForm.jsx";
+import Services from "./pages/services.jsx";
+import HardwoodInstallation from "./pages/HardwoodInstallation.jsx";
+import LaminateFlooring from "./pages/LaminateFlooring.jsx";
+import TileFlooring from "./pages/TileFlooring.jsx";
+
 
 import "./App.css";
 
@@ -25,6 +30,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/estimate" element={<EstimateForm />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/hardwood-installation" element={<HardwoodInstallation />} />
+        <Route path="/laminate-flooring" element={<LaminateFlooring />} />
+        <Route path="/tile-flooring" element={<TileFlooring />} />
       </Routes>
       <Footer />
     </>
