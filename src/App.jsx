@@ -10,6 +10,8 @@ import Services from "./pages/services.jsx";
 import HardwoodInstallation from "./pages/HardwoodInstallation.jsx";
 import LaminateFlooring from "./pages/LaminateFlooring.jsx";
 import TileFlooring from "./pages/TileFlooring.jsx";
+import "leaflet/dist/leaflet.css";
+import ServiceArea from "./pages/ServiceArea.jsx";
 
 
 import "./App.css";
@@ -31,6 +33,7 @@ function App() {
         <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/estimate" element={<EstimateForm />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/service-area" element={<ServiceArea />} />
         <Route path="/hardwood-installation" element={<HardwoodInstallation />} />
         <Route path="/laminate-flooring" element={<LaminateFlooring />} />
         <Route path="/tile-flooring" element={<TileFlooring />} />

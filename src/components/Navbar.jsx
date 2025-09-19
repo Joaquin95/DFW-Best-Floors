@@ -72,11 +72,6 @@ export default function Navbar() {
                 Gallery
               </Link>
             </li>
-            <li>
-              <Link to="/Fences" onClick={() => setIsOpen(false)}>
-                Contact Us
-              </Link>
-            </li>
           </ul>
         </div>
         <ContactBar handleGAEvent={handleGAEvent} />
