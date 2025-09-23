@@ -14,6 +14,8 @@ import "leaflet/dist/leaflet.css";
 import ServiceArea from "./pages/ServiceArea.jsx";
 import LuxuryVinylPlank from "./pages/LuxuryVinylPlank.jsx";
 import FloorRemoval from "./pages/FloorRemoval.jsx";
+import BaseboardTrimInstallation from "./pages/BaseboardTrimInstallation.jsx";
+import WaterDamageRepair from "./pages/WaterDamageRepair.jsx";
 
 import "./App.css";
 
@@ -40,6 +42,8 @@ function App() {
         <Route path="/luxury-vinyl-plank" element={<LuxuryVinylPlank />} />
         <Route path="/tile-flooring" element={<TileFlooring />} />
         <Route path="/floor-removal" element={<FloorRemoval />} />
+        <Route path="/baseboard-installation" element={<BaseboardTrimInstallation />} />
+        <Route path="/water-damage-repair" element={<WaterDamageRepair />} />
       </Routes>
       <Footer />
     </>

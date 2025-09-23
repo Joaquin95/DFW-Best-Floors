@@ -8,6 +8,9 @@ import LaminateFlooring from "../pages/LaminateFlooring";
 import TileFlooring from "../pages/TileFlooring";
 import LuxuryVinylPlank from "../pages/LuxuryVinylPlank";
 import FloorRemoval from "./FloorRemoval";
+import BaseboardTrimInstallation from "./BaseboardTrimInstallation";
+import WaterDamageRepair from "./WaterDamageRepair";
+
 const services = [
   {
     title: "Hardwood Floor Installation",
@@ -41,15 +44,15 @@ const services = [
   },
   {
     title: "Baseboard & Trim Installation",
-    image: "/images/baseboard.jpg",
+    image: "/images/Baseb-Display.png",
     path: "/baseboard-installation",
-    description: "Finish strong—custom baseboards and trim add polish and precision to every flooring project.",
+    component: <BaseboardTrimInstallation/>,
   },
   {
     title: "Water Damage Repair",
-    image: "/images/water-damage.jpg",
+    image: "/images/Water-Dam-Display.jpg",
     path: "/water-damage-repair",
-    description: "Restore and protect—fast response and expert repair for floors damaged by leaks, floods, or humidity.",
+    component: <WaterDamageRepair/>,
   },
   {
     title: "Commercial Flooring Solutions",

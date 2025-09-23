@@ -1,4 +1,5 @@
 import React from "react";
+import EstimateForm from "./EstimateForm";
 
 export default function FloorRemoval() {
   return (
@@ -58,6 +59,7 @@ export default function FloorRemoval() {
       <p>
         <strong>Contact DFW Best Floor Installations today for a free estimate and let us clear the way for your next flooring upgrade.</strong>
       </p>
+      < EstimateForm />
     </section>
   );
 }
