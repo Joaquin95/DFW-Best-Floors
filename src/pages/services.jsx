@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import EstimateForm from "./EstimateForm";
@@ -7,17 +8,62 @@ import LaminateFlooring from "../pages/LaminateFlooring";
 import TileFlooring from "../pages/TileFlooring";
 
 const services = [
-  "Hardwood Floor Installation",
-  "Laminate Flooring",
-  "Luxury Vinyl Plank (LVP)",
-  "Tile Flooring",
-  "Floor Removal & Disposal",
-  "Subfloor Repair",
-  "Baseboard & Trim Installation",
-  "Custom Stair Treads",
-  "Water Damage Repair",
-  "Commercial Flooring Solutions",
+  {
+    title: "Hardwood Floor Installation",
+    image: "/images/hardwood-display.jpg",
+    path: "/hardwood-installation",
+    component: <HardwoodInstallation />,
+  },
+  {
+    title: "Laminate Flooring",
+    image: "/images/Laminate-display.webp",
+    path: "/laminate-flooring",
+    component: <LaminateFlooring/>,
+  },
+  {
+    title: "Luxury Vinyl Plank (LVP)",
+    image: "/images/lvp.jpg",
+    path: "/luxury-vinyl-plank",
+    description: "Waterproof, scratch-resistant, and modern—LVP is perfect for busy households and high-traffic areas.",
+  },
+  {
+    title: "Tile Flooring",
+    image: "/images/tile.jpg",
+    path: "/tile-flooring",
+    description: "Elegant and durable—tile flooring adds value and visual impact to kitchens, bathrooms, and entryways.",
+  },
+  {
+    title: "Floor Removal & Disposal",
+    image: "/images/removal.jpg",
+    path: "/floor-removal",
+    description: "We handle the mess—efficient removal and eco-friendly disposal of old flooring materials with minimal disruption.",
+  },
+  {
+    title: "Subfloor Repair",
+    image: "/images/subfloor.jpg",
+    path: "/subfloor-repair",
+    description: "Solid foundations matter—our subfloor repair ensures your new floors are level, quiet, and built to last.",
+  },
+  {
+    title: "Baseboard & Trim Installation",
+    image: "/images/baseboard.jpg",
+    path: "/baseboard-installation",
+    description: "Finish strong—custom baseboards and trim add polish and precision to every flooring project.",
+  },
+  {
+    title: "Water Damage Repair",
+    image: "/images/water-damage.jpg",
+    path: "/water-damage-repair",
+    description: "Restore and protect—fast response and expert repair for floors damaged by leaks, floods, or humidity.",
+  },
+  {
+    title: "Commercial Flooring Solutions",
+    image: "/images/commercial.jpg",
+    path: "/commercial-flooring",
+    description: "Built for business—durable, stylish flooring options tailored to retail, office, and industrial environments.",
+  },
 ];
+
 
 export default function Services() {
   return (
@@ -36,24 +82,15 @@ export default function Services() {
 
       <section className="services-grid">
         {services.map((service, index) => (
-          <div key={index} className="service-card">
-            <h2>{service}</h2>
+          <Link to={service.path} key={index} className="service-card">
+            <img src={service.image} alt={service.title} className="service-image" />
+            <h2>{service.title}</h2>
             <p>
-              {service.includes("Installation")
-                ? "Professional installation with attention to detail and durability."
-                : service.includes("Repair")
-                ? "Restore your floors to like-new condition with expert repairs."
-                : service.includes("Removal")
-                ? "Safe removal and disposal of old flooring materials."
-                : "Tailored flooring solutions to match your style and budget."}
+              {service.description}
             </p>
-          </div>
+          </Link>
         ))}
       </section>
-
-      <HardwoodInstallation />
-      <LaminateFlooring />
-      <TileFlooring />
       <EstimateForm />
     </main>
   );

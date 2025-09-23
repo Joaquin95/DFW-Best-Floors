@@ -4,7 +4,7 @@ html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
-  background-color: #8a6143;
+  background-color: #71523d;
   padding: 0;
   overflow-x: hidden;
 }
@@ -248,15 +248,15 @@ textarea::placeholder {
 
 .nav-heading .heading {
   margin: 0;
-  font-size: 1.75rem;
+  font-size: 2.75rem;
   color:#734829;
   font-weight: 700;
 }
 
 .nav-heading .slogan {
   display: block;
-  font-size: 1rem;
-  color:#6f4a2f;
+  font-size: 2rem;
+  color:#734829;
   font-style: italic;
   margin-top: 0.25rem;
 }
@@ -272,17 +272,17 @@ textarea::placeholder {
 }
 
 .nav-list li a {
-  color: #2c3e50;
+  color: #734829;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0.5rem 0;
   transition: color 0.2s ease;
 }
 
 .nav-list li a:hover,
 .nav-list li a:focus {
-  color: #835534;
+  color: #b87545;
 }
 
 /* Hamburger (mobile only) */
@@ -496,9 +496,9 @@ h2 {
 
 .service-card {
   background: white;
-  border: 1px solid #5c3c20;
-  padding: 1.5rem;
+  border: 1px solid #ddd;
   border-radius: 8px;
+  padding: 1.5rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
 }
@@ -506,6 +506,12 @@ h2 {
 .service-card:hover {
   transform: translateY(-4px);
 }
+.service-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
 /* Gallery Section */
 .gallery-section {
   color: white;
@@ -675,9 +681,26 @@ h2 {
 
 /* Military Navbar */
 .discount-banner {
-  color: #402c1e;
+  color: #71523d;
   text-align: center;
   padding: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
+}
+
+.service-detail h2, h3, p, li{
+  color: white;
+}
+.service-detail ul {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
