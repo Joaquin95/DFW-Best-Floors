@@ -10,6 +10,7 @@ import LuxuryVinylPlank from "../pages/LuxuryVinylPlank";
 import FloorRemoval from "./FloorRemoval";
 import BaseboardTrimInstallation from "./BaseboardTrimInstallation";
 import WaterDamageRepair from "./WaterDamageRepair";
+import CommercialFlooring from "./CommercialFlooring";
 
 const services = [
   {
@@ -56,9 +57,9 @@ const services = [
   },
   {
     title: "Commercial Flooring Solutions",
-    image: "/images/commercial.jpg",
+    image: "/images/commercial-display.png",
     path: "/commercial-flooring",
-    description: "Built for business—durable, stylish flooring options tailored to retail, office, and industrial environments.",
+    component: <CommercialFlooring/>,
   },
 ];
 

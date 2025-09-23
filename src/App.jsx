@@ -16,6 +16,7 @@ import LuxuryVinylPlank from "./pages/LuxuryVinylPlank.jsx";
 import FloorRemoval from "./pages/FloorRemoval.jsx";
 import BaseboardTrimInstallation from "./pages/BaseboardTrimInstallation.jsx";
 import WaterDamageRepair from "./pages/WaterDamageRepair.jsx";
+import CommercialFlooring from "./pages/CommercialFlooring.jsx";
 
 import "./App.css";
 
@@ -44,6 +45,7 @@ function App() {
         <Route path="/floor-removal" element={<FloorRemoval />} />
         <Route path="/baseboard-installation" element={<BaseboardTrimInstallation />} />
         <Route path="/water-damage-repair" element={<WaterDamageRepair />} />
+        <Route path="/commercial-flooring" element={<CommercialFlooring />} />
       </Routes>
       <Footer />
     </>

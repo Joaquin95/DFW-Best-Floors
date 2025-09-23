@@ -1,4 +1,5 @@
 import React from "react";
+import EstimateForm from "./EstimateForm";
 
 export default function WaterDamageRepair() {
   return (
@@ -72,6 +73,7 @@ export default function WaterDamageRepair() {
       <p>
         <strong>Contact us today for a free inspection and let us help you reclaim your space.</strong>
       </p>
+      < EstimateForm />
     </section>
   );
 }
