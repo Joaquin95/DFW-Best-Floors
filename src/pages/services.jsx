@@ -7,7 +7,7 @@ import HardwoodInstallation from "../pages/HardwoodInstallation";
 import LaminateFlooring from "../pages/LaminateFlooring";
 import TileFlooring from "../pages/TileFlooring";
 import LuxuryVinylPlank from "../pages/LuxuryVinylPlank";
-
+import FloorRemoval from "./FloorRemoval";
 const services = [
   {
     title: "Hardwood Floor Installation",
@@ -35,15 +35,9 @@ const services = [
   },
   {
     title: "Floor Removal & Disposal",
-    image: "/images/removal.jpg",
+    image: "/images/Floor-Removal-Display.jpg",
     path: "/floor-removal",
-    description: "We handle the mess—efficient removal and eco-friendly disposal of old flooring materials with minimal disruption.",
-  },
-  {
-    title: "Subfloor Repair",
-    image: "/images/subfloor.jpg",
-    path: "/subfloor-repair",
-    description: "Solid foundations matter—our subfloor repair ensures your new floors are level, quiet, and built to last.",
+    component: <FloorRemoval/>,
   },
   {
     title: "Baseboard & Trim Installation",
