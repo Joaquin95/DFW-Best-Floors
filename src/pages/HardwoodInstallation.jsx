@@ -25,7 +25,7 @@ export default function HardwoodInstallation() {
         elevate your interiors and boost your property’s value.
       </p>
 
-      <h3>Why Solid Hardwood Stands Out</h3>
+      <h2>Why Solid Hardwood Stands Out</h2>
       <ul>
         <li>
           <strong>Timeless Style:</strong> Natural grain, rich tones, and
@@ -55,7 +55,7 @@ export default function HardwoodInstallation() {
         Installations is the ideal solution.
       </p>
 
-      <h3>Top 10 Hardwood Flooring Options for Dallas Homes</h3>
+      <h2>Top 10 Hardwood Flooring Options for Dallas Homes</h2>
       <ul>
         <li>
           <strong>Oak:</strong> Versatile, durable, and classic. Great for
@@ -96,9 +96,9 @@ export default function HardwoodInstallation() {
         </li>
       </ul>
 
-      <h3>
+      <h2>
         Why Trust Dfw Best Floor Installations for Solid Hardwood Flooring?
-      </h3>
+      </h2>
       <ul>
         <li>
           <strong>Solid Hardwood Expertise:</strong> Professional installation,
@@ -127,7 +127,7 @@ export default function HardwoodInstallation() {
         </li>
       </ul>
 
-      <h3>Why Hardwood Flooring Is Perfect for Dallas Homes</h3>
+      <h2>Why Hardwood Flooring Is Perfect for Dallas Homes</h2>
       <ul>
         <li>Withstand seasonal temperature changes</li>
         <li>Attract more buyers and renters</li>
@@ -135,7 +135,7 @@ export default function HardwoodInstallation() {
         <li>Pair well with open-concept floor plans and natural lighting</li>
       </ul>
 
-      <h3>Transform Your Space with All Flooring Install</h3>
+      <h2>Transform Your Space with All Flooring Install</h2>
       <p>
         Solid hardwood flooring is an investment in timeless beauty, durability,
         and value. At All Flooring Install, we make the process simple,
