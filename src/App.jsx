@@ -12,6 +12,7 @@ import LaminateFlooring from "./pages/LaminateFlooring.jsx";
 import TileFlooring from "./pages/TileFlooring.jsx";
 import "leaflet/dist/leaflet.css";
 import ServiceArea from "./pages/ServiceArea.jsx";
+import LuxuryVinylPlank from "./pages/LuxuryVinylPlank.jsx";
 
 
 import "./App.css";
@@ -36,6 +37,7 @@ function App() {
         <Route path="/service-area" element={<ServiceArea />} />
         <Route path="/hardwood-installation" element={<HardwoodInstallation />} />
         <Route path="/laminate-flooring" element={<LaminateFlooring />} />
+        <Route path="/luxury-vinyl-plank" element={<LuxuryVinylPlank />} />
         <Route path="/tile-flooring" element={<TileFlooring />} />
       </Routes>
       <Footer />

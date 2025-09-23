@@ -6,6 +6,7 @@ import EstimateForm from "./EstimateForm";
 import HardwoodInstallation from "../pages/HardwoodInstallation";
 import LaminateFlooring from "../pages/LaminateFlooring";
 import TileFlooring from "../pages/TileFlooring";
+import LuxuryVinylPlank from "../pages/LuxuryVinylPlank";
 
 const services = [
   {
@@ -22,9 +23,9 @@ const services = [
   },
   {
     title: "Luxury Vinyl Plank (LVP)",
-    image: "/images/lvp.jpg",
+    image: "/images/Vinyl-Display.png",
     path: "/luxury-vinyl-plank",
-    description: "Waterproof, scratch-resistant, and modern—LVP is perfect for busy households and high-traffic areas.",
+    component: <LuxuryVinylPlank/>,
   },
   {
     title: "Tile Flooring",
