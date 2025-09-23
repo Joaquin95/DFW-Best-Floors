@@ -28,9 +28,9 @@ const services = [
   },
   {
     title: "Tile Flooring",
-    image: "/images/tile.jpg",
+    image: "/images/Tile-Flooring2.png",
     path: "/tile-flooring",
-    description: "Elegant and durable—tile flooring adds value and visual impact to kitchens, bathrooms, and entryways.",
+    component: <TileFlooring/>,
   },
   {
     title: "Floor Removal & Disposal",
