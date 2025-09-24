@@ -199,14 +199,18 @@ textarea::placeholder {
 .navbar-top-bar {
   background-color: #71523d;
   color: #ffffff;
-  font-size: 0.875rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0.5rem 0;
-  width: 100%;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  left: 0;
   box-sizing: border-box;
-  text-align: center;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #f3efe9;
+  position: relative; 
+  z-index: 50; 
 }
 
 .navbar-top-bar .top-info {
@@ -236,16 +240,39 @@ textarea::placeholder {
   gap: 1rem;
 }
 
-.navbar-top-bar .payments,
-.navbar-top-bar .certified {
-  white-space: nowrap;
-  text-align: center;
+.navbar-top-bar .top-info,
+.navbar-top-bar .contact {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: transparent;
+} 
+.navbar-top-bar::before,
+.navbar-top-bar::after {
+  background: transparent !important;
+  display: none !important;
 }
+.header-container,
+header,
+.site-header {
+  background: transparent;
+}
+
 
 .navbar-main {
   background-color: white;
   box-shadow: 0 4px 12px #caab95;
-  border-bottom: 4px solid #46280e;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  left: 0;
+  box-sizing: border-box;
+  display: block;
 }
 
 .navbar-inner {
