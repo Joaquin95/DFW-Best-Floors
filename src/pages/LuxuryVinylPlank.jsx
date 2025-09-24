@@ -1,4 +1,5 @@
 import React from "react";
+import EstimateForm from "./EstimateForm";
 
 export default function LuxuryVinylPlank() {
   return (
@@ -67,6 +68,7 @@ export default function LuxuryVinylPlank() {
       <p>
         <strong>Let us help you create a space that’s beautiful, durable, and easy to maintain.</strong>
       </p>
+      < EstimateForm />
     </section>
   );
 }

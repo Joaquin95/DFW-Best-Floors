@@ -31,7 +31,7 @@ export default function ContactBar({ handleGAEvent }) {
                   handleGAEvent("email_click", "Email Click")
                 }
               >
-                dfwbestfloorinstallations@gmail.com
+                DfwBestFloorInstallations@gmail.com
               </a>
             </p>
 

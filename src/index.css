@@ -19,17 +19,41 @@ html {
   text-align: center;
 }
 .hero-section {
-  padding: 2.5rem;
   margin: 40px auto;
   max-width: 1200px;
-  box-shadow: 0 4px 12px rgba(0, 70, 0, 0.45);
-  text-align: center;
-  color: #caab95;
+  color: white;
   padding: 2.5rem;
-  margin: 40px auto;
-  max-width: 1200px;
   box-shadow: 0 4px 12px #caab95;
   text-align: center;
+}
+.services-overview {
+  margin: 40px auto;
+  max-width: 1200px;
+  color: white;
+  padding: 2.5rem;
+  box-shadow: 0 4px 12px #caab95;
+  text-align: center;
+}
+.benefits-section {
+  margin: 40px auto;
+  max-width: 1200px;
+  color: white;
+  padding: 2.5rem;
+  box-shadow: 0 4px 12px #caab95;
+  text-align: center;
+}
+.testimonials-section {
+  margin: 40px auto;
+  max-width: 1200px;
+  color: white;
+  padding: 2.5rem;
+  box-shadow: 0 4px 12px #caab95;
+  text-align: center;
+}
+
+.services-list li,
+.benefits-list li {
+  margin-bottom: 25px;
 }
 .hero-section p {
   margin-bottom: 1rem;
@@ -104,13 +128,13 @@ p {
 }
 .form-container h2 {
   text-align: center;
-  color: black;
+  color: white;
   margin-bottom: 1rem;
 }
 .form-container form label {
   display: block;
   margin-bottom: 1rem;
-  color: black;
+  color: white;
 }
 .form-container form input {
   width: 100%;
@@ -173,7 +197,7 @@ textarea::placeholder {
 }
 
 .navbar-top-bar {
-  background-color: #8a6143;
+  background-color: #71523d;
   color: #ffffff;
   font-size: 0.875rem;
   display: flex;
@@ -219,12 +243,12 @@ textarea::placeholder {
 }
 
 .navbar-main {
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-bottom: 4px solid #5c3c20;
+  background-color: white;
+  box-shadow: 0 4px 12px #caab95;
+  border-bottom: 4px solid #46280e;
 }
 
-.navbar-main .navbar-inner {
+.navbar-inner {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -234,7 +258,7 @@ textarea::placeholder {
   padding: 1rem 0;
 }
 
-.navbar-main .nav-logo {
+.nav-logo {
   height: 500px;
   width: 600px;
   cursor: pointer;
@@ -248,15 +272,15 @@ textarea::placeholder {
 
 .nav-heading .heading {
   margin: 0;
-  font-size: 2.75rem;
-  color:#734829;
+  font-size: 2rem;
+  color: #734829;
   font-weight: 700;
 }
 
 .nav-heading .slogan {
   display: block;
-  font-size: 2rem;
-  color:#734829;
+  font-size: 1.25rem;
+  color: #734829;
   font-style: italic;
   margin-top: 0.25rem;
 }
@@ -275,7 +299,7 @@ textarea::placeholder {
   color: #734829;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem 0;
   transition: color 0.2s ease;
 }
@@ -424,11 +448,11 @@ h2 {
 
 /* Footer */
 .footer {
-  background-color: #8a6143;
+  background-color: #71523d;
   padding: 1.5rem 0;
   text-align: center;
   margin-top: 40px;
-   color: white;
+  color: white;
 }
 
 .footer p {
@@ -640,7 +664,6 @@ h2 {
   padding: 2rem;
 }
 
-
 /* Right column is a fixed square */
 .map-container {
   flex-shrink: 0;
@@ -676,7 +699,9 @@ h2 {
 }
 
 @keyframes fadeIn {
-  to { opacity: 1; }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Military Navbar */
@@ -684,11 +709,14 @@ h2 {
   color: #71523d;
   text-align: center;
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
-.service-detail h2, h3, p, li{
+.service-detail h2,
+h3,
+p,
+li {
   color: white;
 }
 .service-detail ul {
@@ -702,5 +730,5 @@ h2 {
   height: auto;
   margin: 2rem 0;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
